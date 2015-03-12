@@ -1,4 +1,4 @@
- # ID Badge Generator
+# ID Badge Generator
 
 This README outlines the details of collaborating on this Ember application.
 
