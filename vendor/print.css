@@ -1,0 +1,10 @@
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .canvas {
+    display: inline-block !important;
+    width: 3.375in !important;
+    height: 2.125in !important;
+  }
+}

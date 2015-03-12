@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shield badge generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for 'head'}}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/clitest.css">
+  </head>
+  <body>
+    <div class="container no-print title">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-2">
+          <h1>Create your Id</h1>
+        </div>
+      </div>
+    </div>
+
+    {{content-for 'body'}}
+
+    <div class="container" style="position: relative">
+      <div class="row no-print">
+        <div class="col-md-3 right-sidebar">
+          Your custom HTML here
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/vendor.js"></script>
+    <script type="text/javascript">
+      function moveSidebar() {
+        if($(this).width() < 991) {
+          $('.right-sidebar').parent().parent().detach().appendTo('body');
+        } else {
+          $('.right-sidebar').parent().parent().detach().insertAfter($('.container.title'));
+        }
+      }
+      setTimeout(function() {
+        moveSidebar();
+      }, 2000);
+      $(window).resize(function() {
+        moveSidebar();
+      });
+    </script>
+    <script src="assets/clitest.js"></script>
+  </body>
+</html>
