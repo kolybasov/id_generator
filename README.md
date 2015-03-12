@@ -1,8 +1,8 @@
-# ID Generator
+ # ID Badge Generator
 
 This README outlines the details of collaborating on this Ember application.
 
-A short introduction of this app could easily go here.
+This application allows a user to create a simple ID badge via their web browser. This app is also responsive which enables users to also easily create their ID cards via almost any device (tablet, phone, etc). Once an ID badge has been created it can be downloaded as a .png for a variety of uses, or sent directly to the users printer making it very easy for anyone to quickly print ID cards. [Click here] (http://www.eidbadges.com/badge-holders.htm) for a working example.
 
 ## Prerequisites
 
@@ -48,4 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
