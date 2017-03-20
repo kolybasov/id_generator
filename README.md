@@ -1,5 +1,7 @@
 # ID Badge Generator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kolybasov/id_generator.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember application.
 
 This application allows a user to create a simple ID badge via their web browser. This app is also responsive which enables users to also easily create their ID cards via almost any device (tablet, phone, etc). Once an ID badge has been created it can be downloaded as a .png for a variety of uses, or sent directly to the users printer making it very easy for anyone to quickly print ID cards. [Click here] (http://www.eidbadges.com/badge-holders.htm) for a working example.
